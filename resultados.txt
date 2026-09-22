@@ -1,0 +1,32 @@
+RESULTADOS RANDOM FOREST
+========================
+
+Registros totales: 129880
+Variables originales: 21
+Variables después del preprocesamiento: 26
+Datos de entrenamiento: 77928
+Datos de validación: 25976
+Datos de prueba: 25976
+
+Métricas:
+Accuracy:  0.9593
+Precision: 0.9674
+Recall:    0.9379
+F1-Score:  0.9524
+
+Matriz de confusión:
+[[14333   357]
+ [  701 10585]]
+
+Variables más importantes:
+                       feature  importance
+               Online boarding    0.257529
+         Inflight wifi service    0.166772
+                Class_Business    0.086676
+Type of Travel_Personal Travel    0.057557
+Type of Travel_Business travel    0.052318
+        Inflight entertainment    0.052210
+                           Age    0.027381
+        Ease of Online booking    0.026457
+               Checkin service    0.026428
+               Flight Distance    0.026344
